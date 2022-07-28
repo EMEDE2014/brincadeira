@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Home</title>
+</head>
+<body>
+    
+    <section class="home_header">
+        <div class="center">
+            <div class="logo">
+                <img src="./assets/images/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="menu_desktop">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./contato.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="w50 text-content">
+                    <h2>Com a Comunicao em mocambique<br>
+                        Falando uma coisa esta dizendo outra coisa
+
+                    </h2>
+                    
+            </div> <!--w50-->
+
+            <div class="w50 image-teame">
+                <img src="./assets/images/iot.png" width="300" height="300" alt="">
+            </div> <!--w50-->  
+            <div class="clear"></div> 
+        </div> <!--CENTER-->
+    </section> <!--home_header-->                                
+
+
+
+    
+
+    <footer class="rodape">
+   
+        <div class="center">
+           <div class="item-footer">
+            <h2>Falando</h2>
+            <a href="">Sobre</a>
+            <a href="">Contato</a>
+           </div> <!-- item-footer -->
+
+           <div class="item-footer">
+            <h2>Falando</h2>
+            <a href="">Sobre</a>
+            <a href="">Contato</a>
+           </div> <!-- item-footer -->
+
+           <div class="item-footer">
+            <h2>Falando</h2>
+            <a href="">Sobre</a>
+            <a href="">Contato</a>
+           </div> <!-- item-footer -->
+
+           <div class="item-footer" style="width: 40%; text-align:right">
+            <h2>Falando</h2>
+            <a href="">Sobre</a>
+            <a href="">Contato</a>
+           </div> <!-- item-footer -->
+        </div>
+    </footer>
+  
+           
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4'></script>
+    <script src="./assets/js/map.js"></script>
+    <script>
+         $('section.slider-format .slide-funcao').slick({
+            dots: true,
+            arrows: false,
+            infinite: true,
+            centerMode: true,
+            centerPadding: 0,
+            speed: 1000,
+            slidesToShow: 4,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                pauseOnHover: false,
+                     responsive: [{ 
+                        breakpoint: 700,
+                        settings:{
+                        slidesToShow: 1
+                }
+            }]
+        });
+      
+        $('section.box-dep .box-slide').slick({
+            dots: true,
+            arrows: false,
+            infinite: true,
+            centerMode: true,
+            centerPadding: 0,
+            speed: 1000,
+            slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                pauseOnHover: false,
+                     responsive: [{ 
+                        breakpoint: 700,
+                        settings:{
+                        slidesToShow: 1
+                }
+            }]
+        });
+    </script>
+
+</body>
+</html>
